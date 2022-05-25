@@ -1,0 +1,74 @@
+h1,
+h2,
+h3,
+h4 {
+    font-family: Tahoma, Verdana, sans-serif;
+}
+
+h1{
+    font-size: 45px;
+}
+
+p,
+a {
+    font-family: Garamond, serif;
+}
+
+body {
+    max-width: 100%;
+    margin: auto;
+}
+
+header {
+    background-color: rgb(25, 23, 30);
+    width: 100%;
+    position: absolute;
+    top: 0;
+    position: fixed;
+    background-color: rgb(25, 23, 30);
+    width: 100%;
+    min-height: 70px;
+    max-height: 110px;
+}
+
+nav.links {
+    color: rgb(255, 218, 0);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+h1.welcome{
+    margin-right: 1%;
+    font-size: 40px;
+}
+
+nav.links a {
+    margin-right: 1%;
+    color: rgb(186, 160, 11);
+    transition: border .2s;
+    padding: 5px;
+    text-decoration: none;
+    font-size: clamp(7px, 19px, 20px)
+}
+
+nav.links a:hover {
+    border-bottom: rgb(255, 218, 0) solid 2px;
+}
+
+@media (max-width: 555px){
+    .links a{
+        font-size: 6px;
+    }
+
+    h1.welcome{
+        display: none;
+    }
+}
+
+
+
+
+
+
