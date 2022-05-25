@@ -70,7 +70,6 @@ div.short-about{
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
-    border: 2px solid black;
 }
 
 div.about-info{
@@ -92,6 +91,7 @@ div.right{
 
 div.about-info img{
     max-width: 340px;
+    margin: 0 15px;
 }
 
 div.text-info{
