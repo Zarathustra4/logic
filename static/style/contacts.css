@@ -1,23 +1,24 @@
-body{
-    background-image: url("/static/images/green-back.jpg");
+body {
+    background: rgb(46,91,195);
+background: linear-gradient(90deg, rgba(46,91,195,1) 0%, rgba(17,224,222,1) 100%);
     background-size: 100%;
     min-height: 600px;
 }
 
-.background{
+.background {
     width: 80%;
     min-height: 700px;
     background-color: white;
     margin: 30px auto;
-    box-shadow: 14px 13px 30px 2px rgba(0,0,0,0.83);
+    box-shadow: 14px 13px 30px 2px rgba(0, 0, 0, 0.83);
 }
 
 
-img.back{
+img.back {
     width: 70%;
 }
 
-div.text-block{
+div.text-block {
     width: 80%;
     margin: 50px auto;
     display: flex;
@@ -27,7 +28,7 @@ div.text-block{
     padding-bottom: 40px;
 }
 
-div.contact{
+div.contact {
     background-color: rgb(133, 212, 224);
     border-top-left-radius: 40px;
     border-bottom-right-radius: 40px;
@@ -36,6 +37,6 @@ div.contact{
     margin-top: 30px;
 }
 
-div.contact:hover{
+div.contact:hover {
     box-shadow: 10px 5px 5px rgb(84, 78, 78);
 }
